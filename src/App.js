@@ -3,13 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const divStyle={
-    color:'red',
-    backgroundColor:'powderblue',
-    fontSize:'larger',
-    padding:'16px'
-  }
-  return <div style={divStyle}>Hello React</div>
+  return (
+    <h3>Hello wWrld <br/>สวัสดีชาวโลก</h3>
+  );
 }
 
 export default App;
