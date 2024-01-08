@@ -18,9 +18,9 @@ export function Header() {
 export function Content() {
     return (
         <div style={{textAlign: 'center'}}>
-             <h2>Hello</h2> 
+             <h2>Hello
              <br/>
-             <h2>React & React Native</h2>
+             React & React Native</h2>
              <br/><br/><br/>
          </div> 
      )

@@ -5,10 +5,16 @@ import logo from './logo.svg';
 import { Header } from './func-components';
 import { Content } from './func-components';
 import { Footer } from './func-components';
+import Calender from './class-components';
 
 function App() {
   return (
-    [<Header/>,<Content/>,<Footer/>]
+    <>
+    <Header/>
+    <p><center><Calender/></center></p>
+    <Content/>
+    <Footer/>
+  </> 
 
   )
 }
