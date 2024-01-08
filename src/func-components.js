@@ -15,19 +15,21 @@ export function Header() {
         </div>
     )
 }
-// export function …………………….. {
-//     return (
-//         <div style={{textAlign: ……………………}}>
-//             <h2>…………………..............................................</h2>
-//             <br/><br/><br/>
-//         </div>
-//     )
-// }
-// export const Footer = () => {
-//     return (
-//         <div style={{textAlign: ………………….}}>
-//             &copy; {new Date().getFullYear()} ……………………………..
-//         </div>
-//     )
-// }
-    
+export function Content() {
+    return (
+        <div style={{textAlign: 'center'}}>
+             <h2>Hello</h2> 
+             <br/>
+             <h2>React & React Native</h2>
+             <br/><br/><br/>
+         </div> 
+     )
+
+}
+export const Footer=()=>{
+    return(
+        <div style={{textAlign: 'center'}}>
+            &copy;{new Date().getFullYear()} All right reserved
+        </div>
+    )
+}
