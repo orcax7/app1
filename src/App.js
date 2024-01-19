@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import React from 'react';
-import RefsClass from './refs-class'
+import RefsFunc from './refs-func'
 
 export default function App(){
-  return <Refsfunc/>
-}
+  return <RefsFunc/>
+}   

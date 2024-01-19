@@ -20,7 +20,7 @@ export default function RefsFunc(){
         <div style={{textAlign:'center',marginTop:20,fontSize:18}}>
             <span ref={num1}>15</span>&nbsp;
             <span ref={operator}>?</span>&nbsp;
-            <span ref={num1}>5</span>&nbsp;
+            <span ref={num2}>5</span>&nbsp;
             <span>=</span>&nbsp;
             <span ref={result}></span>
             <div>
