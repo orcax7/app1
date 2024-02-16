@@ -13,7 +13,7 @@ export default function Rounter2() {
                 }}>Home</NavLink>-&nbsp;  
                 <NavLink to='/product' className={({isActive})=>isActive?"active_menu":"menu"}>Product</NavLink>-&nbsp;
                 <NavLink to='/member' className={({isActive})=>isActive?"active_menu":"menu"}>Member</NavLink>-&nbsp;
-                <NavLink to='/contact' className={({isActive})=>isActive?"active_menu":"menu"}>Contact</NavLink>-&nbsp;
+                <NavLink to='/contact' className={({isActive})=>isActive?"active_menu":"menu"}>Contact Us</NavLink>-&nbsp;
             </nav>
         </BrowserRouter>
     )
