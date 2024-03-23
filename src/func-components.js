@@ -8,7 +8,7 @@ export function Header() {
         textDecoration:'none'
     }  
     return (
-        <div style={{backgroundColor: '#ccc'}}>
+        <div style={{backgroundColor: '#cccc'}}>
             <a href=" " style={aStyle}>Home</a> |&nbsp;
             <a href=" " style={aStyle}>React</a> |&nbsp;
             <a href=" " style={aStyle}>React Native</a> 
